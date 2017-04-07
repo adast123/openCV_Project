@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="533.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Main">
+  <children>
+    <ImageView fx:id="imageView" fitHeight="271.9999983701193" fitWidth="362.66668701171875" layoutX="85.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" />
+    <Label layoutX="215.0" layoutY="21.0" text="Detector">
+      <font>
+        <Font name="System Bold" size="25.0" />
+      </font>
+    </Label>
+    <Button layoutX="238.0" layoutY="360.0" mnemonicParsing="false" onAction="#buttonHandler" text="Button" />
+  </children>
+</AnchorPane>
