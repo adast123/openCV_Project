@@ -15,7 +15,6 @@
 
 <AnchorPane id="HBox" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="379.0000999999975" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller">
   <children>
-    <Canvas fx:id="draw" height="286.0" layoutX="89.0" layoutY="57.0" style="" width="355.0" />
     <ImageView fx:id="imageView" fitHeight="271.9999983701193" fitWidth="362.66668701171875" layoutY="57.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="68.67" AnchorPane.rightAnchor="69.33" />
     <Label layoutX="199.0" layoutY="14.0" text="Detector">
       <font>
